@@ -6,9 +6,13 @@ module.exports = {
   ],
   theme: {
     extend: {
+      container: {
+        center: true,
+      },
       fontFamily: {
         roboto: ["Roboto", "sans-serif"],
-        raleway: ["Raleway", "sans-serif" ],
+        raleway: ["Raleway", "sans-serif"],
+        poppins: ["Poppins", "sans-serif"],
       },
     },
   },
