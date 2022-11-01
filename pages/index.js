@@ -5,6 +5,7 @@ import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import Project from "../components/Project";
+import ScrollToTop from "../components/ScrollToTop";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <Project />
       <Callback />
       <Footer />
+      <ScrollToTop />
     </>
   );
 }
