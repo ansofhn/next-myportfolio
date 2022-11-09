@@ -16,7 +16,7 @@ const Footer = () => {
             E : ansofhn5@gmail.com <br /> P : 085692751958
           </div>
         </div>
-        <div className="w-full space-y-4 pl-14">
+        <div className="w-full col-start-4 space-y-4 pl-14">
           <div className="text-xl font-bold">
             Latest <br /> projects
           </div>
@@ -24,15 +24,6 @@ const Footer = () => {
             <div>G11 Game</div>
             <div>Joss Laundry</div>
             <div>Chikufarm</div>
-          </div>
-        </div>
-        <div className="w-full px-6 space-y-4">
-          <div className="text-xl font-bold">
-            Current <br /> Availability
-          </div>
-          <div>
-            I usually work on several projects but I’ll be happy to discuss new
-            opportunities. Let’s get in touch!
           </div>
         </div>
         <div className="w-full pl-10 space-y-4">
