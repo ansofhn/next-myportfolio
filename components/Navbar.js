@@ -1,13 +1,10 @@
 import Image from "next/image";
 import { useRouter } from "next/router";
-import React, { useState } from "react";
-import { MdClose } from "react-icons/md";
+import React from "react";
 import Logo from "../public/assets/logo-dark.png";
 
 const Navbar = () => {
-  const [open, setOpen] = useState(false);
   const router = useRouter();
-  const currentRoute = router.pathname;
 
   return (
     <>
@@ -27,7 +24,10 @@ const Navbar = () => {
           <div className="flex items-center">
             <button
               type="button"
-              className="inline-flex items-center gap-2 p-2 text-gray-800 rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-0 "
+              className="inline-flex items-center gap-2 p-2 text-gray-800 rounded-lg focus:outline-none focus:ring-0"
+              onClick={() => {
+                router.push("/menu")
+              }}
             >
               <div className="text-sm font-bold uppercase">Menu</div>
               <svg
@@ -47,23 +47,6 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-      {/* <div className="fixed top-0 left-0 z-20 w-full h-full my-auto overflow-y-hidden text-center text-white bg-black">
-        <div className="flex items-center justify-end">
-          <button
-            type="button"
-            className="inline-flex items-center gap-2 p-2 rounded-lg text-White hover:bg-gray-100 focus:outline-none focus:ring-0 "
-          >
-            <div className="text-sm font-bold uppercase">Close</div>
-            <MdClose className="text-2xl" />
-          </button>
-        </div>
-        <div>Project</div>
-        <div>About me</div>
-        <div>Contact</div>
-        <div>Github</div>
-        <div>Instagram</div>
-        <div>Linkedin</div>
-      </div> */}
     </>
   );
 };
