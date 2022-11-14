@@ -5,7 +5,7 @@ import Image from "next/image";
 import Logo from "../public/assets/logo.png";
 import Link from "next/link";
 
-const menu = () => {
+const Menu = () => {
   const router = useRouter();
   const currentRoute = router.pathname;
   console.log(currentRoute)
@@ -68,4 +68,4 @@ const menu = () => {
   );
 };
 
-export default menu;
+export default Menu;
