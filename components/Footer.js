@@ -2,9 +2,9 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="mx-10 border-t">
-      <div className="grid grid-cols-5 py-24">
-        <div className="w-full col-span-2 space-y-4">
+    <div className="mx-3.5 lg:mx-10 border-t">
+      <div className="grid grid-cols-1 gap-10 py-24 lg:grid-cols-5">
+        <div className="w-full space-y-4 lg:col-span-2">
           <div className="text-xl font-bold">
             Contact <br /> information
           </div>
@@ -16,7 +16,7 @@ const Footer = () => {
             E : ansofhn5@gmail.com <br /> P : 085692751958
           </div>
         </div>
-        <div className="w-full col-start-4 space-y-4 pl-14">
+        <div className="w-full space-y-4 lg:col-start-4 lg:pl-14">
           <div className="text-xl font-bold">
             Latest <br /> projects
           </div>
@@ -26,7 +26,7 @@ const Footer = () => {
             <div>Chikufarm</div>
           </div>
         </div>
-        <div className="w-full pl-10 space-y-4">
+        <div className="w-full space-y-4 lg:pl-10">
           <div className="text-xl font-bold">
             Follow <br /> me on
           </div>

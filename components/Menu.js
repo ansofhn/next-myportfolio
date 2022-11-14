@@ -32,7 +32,7 @@ const Menu = () => {
               router.push("/");
             }}
           >
-            <div className="text-sm font-bold uppercase">Close</div>
+            {/* <div className="text-sm font-bold uppercase">Close</div> */}
             <MdClose className="text-3xl" />
           </button>
         </div>

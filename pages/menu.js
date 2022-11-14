@@ -11,8 +11,8 @@ const menu = () => {
   console.log(currentRoute)
 
   return (
-    <div className="fixed w-full h-full py-10 overflow-y-scroll bg-black">
-      <div className="flex flex-wrap items-center justify-between mx-10">
+    <div className="fixed w-full h-full py-5 overflow-y-scroll bg-black lg:py-10">
+      <div className="flex flex-wrap items-center justify-between mx-3.5 lg:mx-10">
         <div className="flex items-center gap-3">
           <Image src={Logo} className={"w-12 h-12"} />
           <div className="text-gray-100">
@@ -32,7 +32,7 @@ const menu = () => {
               router.push("/");
             }}
           >
-            <div className="text-sm font-bold uppercase">Close</div>
+            {/* <div className="text-sm font-bold uppercase">Close</div> */}
             <MdClose className="text-3xl" />
           </button>
         </div>

@@ -8,11 +8,11 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="fixed top-0 left-0 z-20 w-full py-10 bg-white/90">
-        <div className="flex flex-wrap items-center justify-between mx-10">
+      <div className="fixed top-0 left-0 z-20 w-full py-5 lg:py-10 bg-white/90">
+        <div className="flex flex-wrap items-center justify-between mx-3.5 lg:mx-10">
           <div className="flex items-center gap-3">
             <Image src={Logo} className={"w-12 h-12"} />
-            <div>
+            <div className="">
               <div className="self-center text-xl font-black tracking-normal">
                 Ansof Habibunnadjar
               </div>
@@ -29,7 +29,7 @@ const Navbar = () => {
                 router.push("/menu")
               }}
             >
-              <div className="text-sm font-bold uppercase">Menu</div>
+              {/* <div className="hidden text-sm font-bold uppercase">Menu</div> */}
               <svg
                 className="w-8 h-8"
                 aria-hidden="true"
