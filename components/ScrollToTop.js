@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from "react";
+import { FaChevronUp } from "react-icons/fa";
+import { motion } from "framer-motion";
 import { HiArrowUp } from "react-icons/hi";
 
 const ScrollToTop = () => {
@@ -20,15 +22,33 @@ const ScrollToTop = () => {
     });
   };
 
+  const item = {
+    hidden: {
+      opacity: 0,
+      y: -10,
+    },
+    show: {
+      opacity: 1,
+      y: 0,
+      transition: {
+        ease: [0.6, -0.05, 0.01, 0.99],
+        duration: 1.4,
+      },
+    },
+  };
+
   return (
     <>
       {backToTop && (
-        <button
-          className="fixed flex items-center justify-center p-2 transition-all duration-1000 ease-in bg-gray-300 rounded-full shadow-2xl w-11 h-11 bottom-4 right-4 lg:bottom-12 lg:right-10 "
+        <motion.button
+          variants={item}
+          initial="hidden"
+          animate="show"
+          className="fixed p-3 text-xl text-center bg-gray-200 rounded-full outline-none text-background/70 bottom-5 right-5  md:bottom-16 lg:bottom-[70px] md:right-10"
           onClick={scrollUp}
         >
-          <HiArrowUp className="text-xl font-medium text-white" />
-        </button>
+          <FaChevronUp className="text-xl font-medium text-background/30" />
+        </motion.button>
       )}
     </>
   );

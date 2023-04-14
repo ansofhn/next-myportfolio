@@ -3,14 +3,14 @@ import React from "react";
 const Hero = () => {
   return (
     <>
-      <div className="mx-3.5 lg:mx-10 space-y-5 mt-80">
+      <div className="mx-3.5 md:mx-10 space-y-5 mt-80">
         <div className="px-1 pt-20 font-light tracking-widest text-gray-400 uppercase">
           Ansof Habibunnadjar
         </div>
         <div className="text-4xl font-bold lg:text-6xl">
           Junior front end <br /> website developer
         </div>
-        <div className="text-base text-gray-500  lg:text-lg">
+        <div className="text-base text-gray-500 lg:text-lg">
           Over the past 2 years, as an Front end developer, I’ve worked with big{" "}
           <br /> companies and up-and-coming startups to successfully help them
           reach

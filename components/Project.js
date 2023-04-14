@@ -7,7 +7,7 @@ import josslaundry from "../public/assets/3.png";
 const Project = () => {
   return (
     <>
-      <div className="mx-3.5 lg:mx-10 mt-16 lg:mt-40 space-y-5">
+      <div className="mx-3.5 md:mx-10 mt-16 lg:mt-40 space-y-5">
         <div className="px-1 pt-20 font-light tracking-widest text-gray-500 uppercase">
           Selected projects
         </div>
@@ -47,7 +47,7 @@ const Project = () => {
           </div>
         </div>
       </div>
-      <div className="mx-3.5 space-y-5 lg:mx-10">
+      <div className="mx-3.5 space-y-5 md:mx-10">
         <div className="px-1 pt-20 font-light tracking-widest text-gray-500 uppercase">
           Coding Programs & Design
         </div>
