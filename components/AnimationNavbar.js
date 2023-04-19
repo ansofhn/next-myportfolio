@@ -46,7 +46,7 @@ const AnimationNavbar = () => {
           scrollChange || currentRoute === "/product/[id]"
             ? "shadow-lg shadow-gray-800/5"
             : ""
-        } bg-white/90 sm:px-10 sm:py-8 transition duration-300`}
+        } bg-white/90 sm:px-10 sm:py-8`}
       >
         <Link href={"/"}>
           <div className="flex items-center gap-3">
@@ -147,7 +147,7 @@ const AnimationNavbar = () => {
         {/* Navbar Mobile */}
         {open && (
           <motion.div
-            className="fixed top-0 z-40 flex flex-col items-center justify-center w-full text-white bg-gray-800"
+            className="fixed top-0 z-40 flex flex-col items-center justify-center w-full text-white bg-[#302f2c]"
             variants={item}
             initial={{ height: 0, opacity: 0 }}
             animate={{ height: "100vh", opacity: 1 }}
@@ -155,7 +155,7 @@ const AnimationNavbar = () => {
             exit="exit"
           >
             <RemoveScrollBar />
-            <div className="fixed top-0 flex flex-wrap items-center justify-between w-full p-6 mx-auto bg-gray-800 sm:px-10 sm:py-10 md:py-8">
+            <div className="fixed top-0 flex flex-wrap items-center justify-between w-full p-6 mx-auto bg-[#302f2c] sm:px-10 sm:py-10 md:py-8">
               <Link href={"/"}>
                 <div className="flex items-center gap-3">
                   <Image src={Logo2} className={"ml-3 md:ml-0 w-12 h-12"} />
@@ -198,35 +198,12 @@ const AnimationNavbar = () => {
             >
               menu
             </motion.div>
-            {/* <Link href={"/"}>
-              <motion.div
-                onClick={() => {
-                  setOpen(!open);
-                }}
-                className={`inline-flex my-2 text-3xl font-bold ${
-                  currentRoute === "/" ? "text-white" : "text-gray-300/70"
-                } `}
-                initial={{ y: 80, opacity: 0 }}
-                animate={{ y: 0, opacity: 1 }}
-                transition={{ delay: 0.8 }}
-                exit={{
-                  opacity: 0,
-                  y: 80,
-                  transition: {
-                    ease: "easeInOut",
-                    delay: 0.9,
-                  },
-                }}
-              >
-                Home
-              </motion.div>
-            </Link> */}
             <Link href={"/"}>
               <motion.div
                 onClick={() => {
                   setOpen(!open);
                 }}
-                className={`inline-flex my-2 text-3xl font-bold ${
+                className={`inline-flex my-2 text-4xl md:text-5xl font-bold ${
                   currentRoute === "/" || currentRoute === "/"
                     ? "text-white"
                     : "text-gray-300/70"
@@ -251,7 +228,7 @@ const AnimationNavbar = () => {
                 onClick={() => {
                   setOpen(!open);
                 }}
-                className={`inline-flex my-2 text-3xl font-bold ${
+                className={`inline-flex my-2 text-4xl md:text-5xl font-bold ${
                   currentRoute === "/about" ? "text-white" : "text-gray-300/70"
                 } `}
                 initial={{ y: 80, opacity: 0 }}
@@ -274,7 +251,7 @@ const AnimationNavbar = () => {
                 onClick={() => {
                   setOpen(!open);
                 }}
-                className={`inline-flex my-2 text-3xl font-bold ${
+                className={`inline-flex my-2 text-4xl md:text-5xl font-bold ${
                   currentRoute === "/contact"
                     ? "text-white"
                     : "text-gray-300/70"
@@ -299,11 +276,8 @@ const AnimationNavbar = () => {
                 onClick={() => {
                   setOpen(!open);
                 }}
-                className={`inline-flex my-2 text-3xl font-bold ${
-                  currentRoute === "/contact"
-                    ? "text-white"
-                    : "text-gray-300/70"
-                } `}
+                className={`inline-flex my-2 text-4xl md:text-5xl font-bold hover:text-white
+                text-gray-300/70`}
                 initial={{ y: 80, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ delay: 0.4 }}
@@ -324,11 +298,8 @@ const AnimationNavbar = () => {
                 onClick={() => {
                   setOpen(!open);
                 }}
-                className={`inline-flex my-2 text-3xl font-bold ${
-                  currentRoute === "/contact"
-                    ? "text-white"
-                    : "text-gray-300/70"
-                } `}
+                className={`inline-flex my-2 text-4xl md:text-5xl font-bold hover:text-white
+                  text-gray-300/70`}
                 initial={{ y: 80, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ delay: 0.3 }}
@@ -352,11 +323,8 @@ const AnimationNavbar = () => {
                 onClick={() => {
                   setOpen(!open);
                 }}
-                className={`inline-flex my-2 text-3xl font-bold ${
-                  currentRoute === "/contact"
-                    ? "text-white"
-                    : "text-gray-300/70"
-                } `}
+                className={`inline-flex my-2 text-4xl md:text-5xl font-bold hover:text-white
+                  text-gray-300/70`}
                 initial={{ y: 80, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ delay: 0.2 }}
