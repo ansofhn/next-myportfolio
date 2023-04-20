@@ -85,62 +85,6 @@ const AnimationNavbar = () => {
             </svg>
           </button>
         </div>
-        {/* <div className="hidden w-full mt-10 rounded-lg xl:ml-[180px] 2xl:ml-[800px] lg:mt-0 lg:justify-between lg:items-center lg:flex lg:w-auto lg:order-1 bg-gray-300 lg:bg-transparent lg:p-0">
-          <div className="flex flex-col gap-4 p-2 font-medium lg:p-0 lg:flex-row lg:gap-10 lg:font-medium text-background">
-            <Link href={"/"}>
-              <div
-                onClick={() => {}}
-                className="relative p-2 cursor-pointer group"
-              >
-                Home
-                <div
-                  className={`w-full h-0.5 bg-background/80 scale-x-0 group-hover:scale-x-110 transition-transform duration-300 ${
-                    currentRoute === "/" ? "scale-x-110" : "scale-x-0"
-                  }`}
-                />
-              </div>
-            </Link>
-            <Link href={"/product"}>
-              <div
-                onClick={() => {}}
-                className="relative p-2 cursor-pointer group"
-              >
-                Products
-                <div
-                  className={`w-full h-0.5 bg-background/80 scale-x-0 group-hover:scale-x-110 transition-transform duration-300 ${
-                    currentRoute === "/product" ? "scale-x-110" : "scale-x-0"
-                  }`}
-                />
-              </div>
-            </Link>
-            <Link href={"/about"}>
-              <div
-                onClick={() => {}}
-                className="relative p-2 cursor-pointer group"
-              >
-                About
-                <div
-                  className={`w-full h-0.5 bg-background/80 scale-x-0 group-hover:scale-x-110 transition-transform duration-300 ${
-                    currentRoute === "/about" ? "scale-x-110" : "scale-x-0"
-                  }`}
-                />
-              </div>
-            </Link>
-            <Link href={"/contact"}>
-              <div
-                onClick={() => {}}
-                className="relative p-2 cursor-pointer group"
-              >
-                Contact
-                <div
-                  className={`w-full h-0.5 bg-background/80 scale-x-0 group-hover:scale-x-110 transition-transform duration-300 ${
-                    currentRoute === "/contact" ? "scale-x-110" : "scale-x-0"
-                  }`}
-                />
-              </div>
-            </Link>
-          </div>
-        </div> */}
       </div>
 
       <AnimatePresence>

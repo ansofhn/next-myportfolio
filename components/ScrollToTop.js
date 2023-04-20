@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { FaChevronUp } from "react-icons/fa";
 import { motion } from "framer-motion";
-import { HiArrowUp } from "react-icons/hi";
 
 const ScrollToTop = () => {
   const [backToTop, setBackToTop] = useState(false);

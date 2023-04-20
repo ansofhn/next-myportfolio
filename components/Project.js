@@ -1,8 +1,4 @@
 import React from "react";
-import Image from "next/image";
-import g11 from "../public/assets/1.png";
-import chikufarm from "../public/assets/2.png";
-import josslaundry from "../public/assets/3.png";
 
 const Project = () => {
   return (
@@ -19,7 +15,6 @@ const Project = () => {
               Trustlink CDI - Identity verification platform
             </div>
             <div className="text-gray-300 cursor-pointer">View Project</div>
-            {/* <Image src={g11} /> */}
             <div className="h-32"></div>
           </div>
           <div className="w-full bg-[#302f2c] tracking-widest space-y-4 p-8 lg:p-10 xl:p-16">
@@ -28,7 +23,6 @@ const Project = () => {
               G11 Game - Garuda eleven game development
             </div>
             <div className="text-gray-300 cursor-pointer">View Project</div>
-            {/* <Image src={g11} /> */}
             <div className="h-32"></div>
           </div>
           <div className="w-full bg-[#302f2c] tracking-widest space-y-4 p-8 lg:p-10 xl:p-16">
@@ -37,7 +31,6 @@ const Project = () => {
               Encrease - Entrepreneurial Creator School
             </div>
             <div className="text-gray-300 cursor-pointer">View Project</div>
-            {/* <Image src={g11} /> */}
             <div className="h-32"></div>
           </div>
           <div className="w-full bg-[#302f2c] tracking-widest space-y-4 p-8 lg:p-10 xl:p-16">
@@ -46,7 +39,6 @@ const Project = () => {
               Movsoft - Website for watch & download film
             </div>
             <div className="text-gray-300 cursor-pointer">View Project</div>
-            {/* <Image src={g11} /> */}
             <div className="h-32"></div>
           </div>
           <div className="w-full bg-[#302f2c] tracking-widest space-y-4 p-8 lg:p-10 xl:p-16">
@@ -55,7 +47,6 @@ const Project = () => {
               Joss Laundry - UMKM Laundry website system
             </div>
             <div className="text-gray-300 cursor-pointer">View Project</div>
-            {/* <Image src={josslaundry} /> */}
             <div className="h-32"></div>
           </div>
           <div className="w-full bg-[#302f2c] tracking-widest space-y-4 p-8 lg:p-10 xl:p-16">
@@ -64,7 +55,6 @@ const Project = () => {
               Chikufarm - Chicken farm management system
             </div>
             <div className="text-gray-300 cursor-pointer">View Project</div>
-            {/* <Image src={chikufarm} /> */}
             <div className="h-32"></div>
           </div>
         </div>

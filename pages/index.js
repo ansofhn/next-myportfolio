@@ -3,7 +3,6 @@ import Head from "next/head";
 import Callback from "../components/Callback";
 import Footer from "../components/Footer";
 import Hero from "../components/Hero";
-import Navbar from "../components/Navbar";
 import Project from "../components/Project";
 import ScrollToTop from "../components/ScrollToTop";
 import AnimationNavbar from "../components/AnimationNavbar";
