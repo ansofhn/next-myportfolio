@@ -2,10 +2,17 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="pt-24 md:pt-28 lg:pt-52 xl:pt-56">
+    <div className="pt-24 md:pt-28 lg:pt-52">
       <div className="flex">
-        <iframe
+        {/* <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1401.484130475399!2d106.8067545824225!3d-6.522220680237036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69c3db9bbedcc3%3A0x1f5280e86053b1e9!2sSMK%20N%201%20Cibinong!5e0!3m2!1sen!2sid!4v1672636259221!5m2!1sen!2sid"
+          allowFullScreen=""
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+          className="w-full h-[86vh] lg:w-[85%] 2xl:w-[80%] lg:h-[350px] xl:h-[450px] 2xl:h-[550px] grayscale"
+        ></iframe> */}
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.2742676735984!2d106.79038577428638!3d-6.48691116342124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69c31fd83153f9%3A0x325a1662bf4bed19!2sMajelis%20Ta&#39;lim%20Bani%20Abdullah!5e0!3m2!1sid!2sid!4v1682675702143!5m2!1sid!2sid"
           allowFullScreen=""
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
